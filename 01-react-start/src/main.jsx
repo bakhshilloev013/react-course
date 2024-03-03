@@ -2,6 +2,7 @@ import React from 'react'; // отвечает за работу всего фу
 import ReactDOM from 'react-dom/client'; // отвечает за работу на странице
 import App from './App.jsx'; // импорт компонента App
 import './index.css'; // импорт стилизаций из документа index.css
+import { Header } from './App.jsx'; // импортируем компонент Header из документа App
 
 // const elem = <h2>Hello world!</h2> // пример jsx кода
 
@@ -25,7 +26,7 @@ import './index.css'; // импорт стилизаций из документ
 
 const text = 'Hello world!';
 
-// JSX всегда загружает только один тег если вы хотите передать несколько строк html тегов вы сначала должны их обернуть в один единый тег div или тому подоному или React.Fragment, пример:(<>...</>)
+// JSX всегда загружает только один тег если вы хотите передать несколько строк html тегов вы сначала должны их обернуть в один единый тег div или тому подобному или React.Fragment, пример:(<>...</>)
 const elem = (
     <div>
         {/* <h2>Hello world!</h2> */}
